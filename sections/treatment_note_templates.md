@@ -376,6 +376,14 @@ curl https://api.cliniko.com/v1/treatment_note_templates/1 \
 **Example Response**
 A status code of `204 no content` will be returned if successful
 
+Filtering Treatment Note Templates
+----------------
+For any route that returns a set of treatment note templates, you can filter them by:
+
+created_at (DateTime)
+id (Integer)
+updated_at (DateTime)
+
 Treatment Note Template Content Schema
 ----------------
 The `content` property of a treatment note template is a JSON object. The schema is validated and must conform to the following rules.
